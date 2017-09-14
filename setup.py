@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='lomadee',
-      version='0.1',
+      version='0.2',
       description='Api de ofertas lomadee',
       url='git@gitlab.com:gustavopinho/lomadee.git',
       author='Gustavo Pinho',
