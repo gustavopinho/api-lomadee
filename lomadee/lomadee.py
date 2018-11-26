@@ -27,8 +27,8 @@ class Lomadee():
         response = requests.get(
             self.get_url(resource),
             params=self.get_params(**params)
-        )
-        return response.json()
+        ).json()
+        return response
 
 
 class Offer(Lomadee):
