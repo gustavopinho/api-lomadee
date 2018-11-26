@@ -2,7 +2,7 @@ import requests
 
 class Lomadee():
 
-    sandbox_url = "https://sandbox-api.lomadee.com/v2/{0}/{1}"
+    sandbox_url = "http://sandbox-api.lomadee.com/v2/{0}/{1}"
     production_url = "https://api.lomadee.com/v2/{0}/{1}"
 
     def __init__(self, app_token, source_id, sandbox=False):
