@@ -121,12 +121,10 @@ class Coupon(Lomadee):
         resource = "coupon/_id/{0}".format(coupon_id)
         return self.get(resource, **params)
 
-    def category(self, category_id, **params):
-        resource = "coupon/_categories/{0}".format(category_id)
+    def category(self, **params):
+        resource = "coupon/_categories"
         return self.get(resource, **params)
     
-    def store(self, store_id, **params):
-        resource = "coupon/_stores/{0}".format(store_id)
+    def store(self, **params):
+        resource = "coupon/_stores"
         return self.get(resource, **params)
-
-
