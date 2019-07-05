@@ -1,0 +1,1 @@
+Implementação de API da Lomadee e Python
